@@ -4,7 +4,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-3xl font-bold underline">Hello world I GOT FIRED</h1>
+    <h1 className="text-3xl font-bold ">TAMA</h1>
   );
 }
 

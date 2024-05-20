@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+import { fontFamily } from "tailwindcss/defaultTheme";
+import plugin from "tailwindcss/plugin";
+
 export default {
   content: [
     "./index.html",
@@ -36,9 +40,11 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sora)", ...fontFamily.sans],
-        code: "var(--font-code)",
-        grotesk: "var(--font-grotesk)",
+        // sans: ["var(--font-sora)", ...fontFamily.sans],
+        // code: "var(--font-code)",
+        // grotesk: "var(--font-grotesk)",
+        bebas: "var(--font-bebas)",
+        nunito: "var(--font-nunito)",
       },
       letterSpacing: {
         tagline: ".15em",
