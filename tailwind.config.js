@@ -40,10 +40,7 @@ export default {
         },
       },
       fontFamily: {
-        // sans: ["var(--font-sora)", ...fontFamily.sans],
-        // code: "var(--font-code)",
-        // grotesk: "var(--font-grotesk)",
-        bebas: "var(--font-bebas)",
+        bebas: ["var(--font-bebas)", ...fontFamily.sans],
         nunito: "var(--font-nunito)",
       },
       letterSpacing: {
