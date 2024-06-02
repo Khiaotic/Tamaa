@@ -37,6 +37,7 @@ export default {
           11: "#1B1B2E",
           12: "#2E2A41",
           13: "#6C7275",
+          14: "#548fda",
         },
       },
       fontFamily: {
@@ -122,7 +123,7 @@ export default {
           "@apply text-sm": {},
         },
         ".tagline": {
-          "@apply font-grotesk font-light text-xs tracking-tagline uppercase":
+          "@apply font-nunito font-light text-xs tracking-tagline uppercase":
             {},
         },
         ".quote": {

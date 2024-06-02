@@ -1,14 +1,35 @@
+////use location by react router dom
+import { useLoaderData, useLocation } from 'react-router-dom'
+import Button from './Button'
 import './Header.css'
-
-
+import {navigation} from '../constants'
+import MenuSvg from '../assets/svg/MenuSvg'
+import {HamburgerMenu} from './design/Header'
+import { useState } from 'react'
 
 const Header = () => {
+  const pathname =useLocation()
+  const [openNavigation, setOpenNavigation]=useState(false)
+  const toggleNavigation = () => {
+    if(openNavigation) {
+      setOpenNavigation(false)
+    }
+    else {
+      setOpenNavigation(true)
+    }
+  }
+
+  const handleClick = () => {
+    setOpenNavigation(false)
+  }
+
+
   return (
-    <div className="fixed top-0 z-50 bg-n-8/90 backdrop-blur-sm border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm">
+    <div className={`fixed top-0 left-0 w-full z-50 bg-n-8/90 border-none backdrop-blur-sm border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
      <div className=" flex items center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-     <a href="#" className="flex items-center">
+     <a href="#hero" className="flex items-center width={190} xl:mr-8 ">
      <svg
-        className="w-10 h-10 logo"
+        className="w-10 h-10 logo "
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 219.2 161.1"
       >
@@ -29,8 +50,22 @@ const Header = () => {
   <path class="cls-1" d="M170.4,51.7s-.5-1.4.7-1.5c2.9-.2,7.9-1.1,11-4.2s2.8-2.2,2.9,1.8c0,1.5,1.8,13.4,3.6,13.1,13.1-2.4,20.4,9.1,25.2,21.2,4.8,12.1,6,30.2,4.9,43.4-.9,11.3-5,28-12.8,35.5-1,.9.7-6,2.7-14.7.3-1.2,1.8-12.7,1.8-13.6,0-4.5,0-11.1-.6-17.8-1.2-12.8-3.6-19.5-8.1-27.5-6.2-11-8.4-12.3-14.3-13.2s-9,4.6-11-1.8c-2-6.4-5.9-20.7-5.9-20.7Z"/>
   <circle class="cls-2" cx="145.2" cy="26.4" r="5"/>
 </svg>
+<h1 className="pl-2 text-3xl text-[#548fda] font-bold ">TAMA</h1>
      </a>
-     
+     <nav className={`${openNavigation ? 'flex' : 'hidden'} fixed top-[5rem] right-0 bottom-0 left 0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>
+      <div className='relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row'> 
+       {navigation.map((item) => (
+      <a key={item.id} href={item.url} onClick={handleClick} className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${item.onlyMobile ? 'lg:hidden' : ''} px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${item.url === pathname.hash ? 'z-2 lg:text-n-1' : 'lg:text-n-1/50'} lg: leading-5 lg:hover:text-n-1 xl:px-12`}>
+
+        {item.title}
+      </a>
+      ))}
+      </div>
+      <HamburgerMenu/>
+     </nav>
+     <Button className="ml-auto lg:hidden px-3" onClick={toggleNavigation}>
+      <MenuSvg openNavigation={openNavigation} />
+     </Button>
      </div>
     </div>
   )
