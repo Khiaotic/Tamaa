@@ -1,5 +1,6 @@
 import Section from "./Section";
-import lossless from "../assets/hero/lossless";
+import lossless from "../assets/hero/lossless.png";
+import heroBackground from "../assets/hero/hero-background.jpg";
 
 const Hero = () => {
   return (
@@ -19,12 +20,31 @@ const Hero = () => {
           </p>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 padding-0.5 rounded-2xl bg-conic-gradient">
+          <div className="relative z-1 padding-0.5 rounded-2xl ">
             <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounted-t-[0.9rem]" />
+              <div className="rounted-t-[0.9rem]" />
             </div>
-            <img src={lossless} />
+
+            <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490] ">
+              <img
+                className="relative w-full transition-colors "
+                width={1024}
+                height={490}
+                src={lossless}
+                href=""
+                alt="lastest music video"
+              />
+            </div>
           </div>
+        </div>
+        <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <img
+            src={heroBackground}
+            className="w-full"
+            width={1440}
+            height={1800}
+            alt="hero"
+          />
         </div>
       </div>
     </Section>
