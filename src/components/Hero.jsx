@@ -1,6 +1,6 @@
 import Section from "./Section";
 import lossless from "../assets/hero/lossless.png";
-import heroBackground from "../assets/hero/hero-background.jpg";
+import tamaBackground from "../assets/hero/tama-background.jpg";
 
 const Hero = () => {
   return (
@@ -37,9 +37,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+        <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%] blur">
           <img
-            src={heroBackground}
+            src={tamaBackground}
             className="w-full"
             width={1440}
             height={1800}
