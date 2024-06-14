@@ -4,7 +4,7 @@ export const IndexContent = [
   {
     id: "0",
     title: "Going Down",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "When you come over, its going down",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
   },
   {
@@ -18,13 +18,13 @@ export const IndexContent = [
   {
     id: "2",
     title: "TAMA x FIRE BREATHING",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    text: "Why did you come in my space with your toxic ass energy, FUCK",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
   },
   {
     id: "3",
     title: "It's Mine",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "You can't take it from me, ITS MINE",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
 
     light: true,
