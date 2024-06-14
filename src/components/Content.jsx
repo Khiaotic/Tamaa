@@ -23,17 +23,19 @@ const Content = () => {
              }}
             key={item.id}>
               
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-6 pointer-events-none">
+              <div className="relative z-2 flex flex-col min-h-[22rem] p-6">
                 <h5 className="h2 text-center mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div>
-                  
+                  <a href={item.youtubeUrl} target="_blank" rel="noopener noreferrer">
                     <img
                     src={item.thumbnail}
                     className="w-full h-auto"
                     width={800}
                     height={300}
-                     />
+                    alt="youtube thumbnail"
+                    />
+                    </a>
                   
                 </div>
                 <div className="flex pl-6 items-center mt-auto">
