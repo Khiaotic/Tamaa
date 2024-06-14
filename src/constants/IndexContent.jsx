@@ -22,7 +22,7 @@ export const IndexContent = [
       title: "TAMA x FIRE BREATHING",
       text: "Why did you come in my space with your toxic ass energy, FUCK",
       backgroundUrl: "./src/assets/benefits/card-3.svg",
-      iconUrl:youtubeIcon
+      iconUrl:youtubeIcon,
       },
       {
         id: "3",
@@ -38,13 +38,13 @@ export const IndexContent = [
           title: "TAMA x FIGHT ME",
           text: "Always Talkin' shit but you LOVE me",
           backgroundUrl: "./src/assets/benefits/card-6.svg",
-        iconUrl:youtubeIcon
+        iconUrl:youtubeIcon,
         },
         {
           id: "4",
           title: "Dream Girl",
           text: "When I close my eyes I ge to see your face ",
           backgroundUrl: "./src/assets/benefits/card-1.svg",
-          iconUrl:youtubeIcon
+          iconUrl:youtubeIcon,
   },
 ];
