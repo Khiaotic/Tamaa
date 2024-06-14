@@ -1,7 +1,8 @@
 import React from "react";
 import Section from "./Section";
 import Heading from "./Heading";
-// import benefits from "../";
+import { IndexContent } from "../constants/IndexContent";
+
 
 const Content = () => {
   return (
@@ -11,15 +12,33 @@ const Content = () => {
           className="md:max-w-md lg:max-w-3xl"
           title="Check Out TAMA's Latest Content"
         />
-        {/* <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
-            <div key={item.id}>
-              <div>
-                <h5>{item.title}</h5>
+        <div className="flex flex-wrap gap-10 mb-10">
+          {IndexContent.map((item) => (
+            <div 
+            className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] 
+             md:max-w-[24rem]"
+             style={{
+              backgroundImage:`url(${item.backgroundUrl})`,
+             }}
+            key={item.id}>
+              
+              <div className="relative z-2 flex flex-col min-h-[22rem] p=[2
+              .4rem] pointer-events-none">
+                <h5 className="h2 text-center mb-5">{item.title}</h5>
+                <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                <div className="flex items-center mt-auto">
+<img 
+src={item.iconUrl}
+width={48}
+height={48}
+alt={item.title}
+/>
+
+                </div>
               </div>
             </div>
           ))}
-        </div> */}
+        </div>
       </div>
     </Section>
   );

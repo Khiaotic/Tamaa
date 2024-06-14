@@ -19,8 +19,7 @@ const Hero = () => {
         <div className="relative z-1 max-w-[80rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">Lyrical Dreams into A Reality</h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            sub heading sub heading subheading blah blah blah idk what she wants
-            to say here yet
+          👇🏾 CLICK THE IMAGE TO SEE MY NEW MUSIC VIDEO 👇🏾
           </p>
         </div>
         <div className="relative max-w-[50rem] mx-auto md:max-w-5xl xl:mb-24">
