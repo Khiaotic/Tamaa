@@ -4,6 +4,7 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Content from "./components/Content";
+import Collab from "./components/collab";
 
 const App = () => {
   // const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ const App = () => {
         <Content />
       </div>
       <ButtonGradient />
+      <Collab />
     </>
   );
 };

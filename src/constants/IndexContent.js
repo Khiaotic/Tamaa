@@ -1,9 +1,4 @@
-
-
 // import {ytIcon} from "../assets/benefits/yt_icon.svg"
-
-
-
 
 export const IndexContent = [
   {
@@ -11,56 +6,59 @@ export const IndexContent = [
     title: "Going Down",
     text: "When you come over, it's going down",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    thumbnail:"../../public/TamaThumbails/down.jpg",
-    youtubeUrl:"https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
+    thumbnail: "/TamaThumbails/down.jpg",
+    youtubeUrl: "https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
+    light: true,
     // iconUrl: ytIcon,
-    },
-    // {
-      //   id: "1",
-      //   title: "Time with You",
-      //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-      //   backgroundUrl: "./src/assets/benefits/card-6.svg",
-      //   thumbnail:"../../public/TamaThumbails/down.jpg",
-      //   // iconUrl: ytIcon,
-      //   light: true,
-      //   },
-      {
-        id: "2",
-        title: "TAMA x FIRE BREATHING",
-        text: "Why did you come in my space with your toxic ass energy, FUCK",
-        backgroundUrl: "./src/assets/benefits/card-3.svg",
-        thumbnail:"../../public/TamaThumbails/fire.jpg",
-        youtubeUrl:"https://youtu.be/H179KR0Fmx8?si=nfGH4rAkPwDPG70-",
-        // iconUrl:ytIcon,
-        },
-        {
-          id: "3",
-          title: "It's Mine",
-          text: "You can't take it from me, ITS MINE",
-          backgroundUrl: "./src/assets/benefits/card-6.svg",
-          thumbnail:"../../public/TamaThumbails/mine.jpg",
-          youtubeUrl:"https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
-          // iconUrl:ytIcon,
-          
-          light: true,
-          },
-          {
-            id: "5",
-            title: "TAMA x FIGHT ME",
-            text: "Always Talkin' shit but you LOVE me",
-            backgroundUrl: "./src/assets/benefits/card-6.svg",
-            thumbnail:"../../public/TamaThumbails/fight.jpg",
-            youtubeUrl:"https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
-            // iconUrl:ytIcon,
-            },
-            {
-              id: "4",
-              title: "Dream Girl",
-              text: "When I close my eyes I ge to see your face ",
-              backgroundUrl: "./src/assets/benefits/card-1.svg",
-              thumbnail:"../../public/TamaThumbails/dream.jpg",
-              youtubeUrl:"https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
-              // iconUrl:ytIcon,
-              },
-              ];
-              
+  },
+  // {
+  //   id: "1",
+  //   title: "Time with You",
+  //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+  //   backgroundUrl: "./src/assets/benefits/card-6.svg",
+  //   thumbnail:"../../public/TamaThumbails/down.jpg",
+  //   // iconUrl: ytIcon,
+  //   light: true,
+  //   },
+  {
+    id: "2",
+    title: "TAMA x FIRE BREATHING",
+    text: "Why did you come in my space with your toxic ass energy, FUCK",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    thumbnail: "/TamaThumbails/fire.jpg",
+    youtubeUrl: "https://youtu.be/H179KR0Fmx8?si=nfGH4rAkPwDPG70-",
+    light: true,
+    // iconUrl:ytIcon,
+  },
+  {
+    id: "3",
+    title: "It's Mine",
+    text: "You can't take it from me, ITS MINE",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    thumbnail: "/TamaThumbails/mine.jpg",
+    youtubeUrl: "https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
+    // iconUrl:ytIcon,
+
+    light: true,
+  },
+  {
+    id: "5",
+    title: "TAMA x FIGHT ME",
+    text: "Always Talkin' shit but you LOVE me",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    thumbnail: "/TamaThumbails/fight.jpg",
+    youtubeUrl: "https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
+    light: true,
+    // iconUrl:ytIcon,
+  },
+  {
+    id: "4",
+    title: "Dream Girl",
+    text: "When I close my eyes I ge to see your face ",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    thumbnail: "/TamaThumbails/dream.jpg",
+    youtubeUrl: "https://youtu.be/b95WRvpzyUc?si=xN3uMRVnAZZ6BzXr",
+    light: true,
+    // iconUrl:ytIcon,
+  },
+];
