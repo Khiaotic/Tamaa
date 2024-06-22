@@ -1,8 +1,9 @@
 import React from "react";
 import Section from "./Section";
 import Button from "./Button";
+import "./dateTimeScrollerStyles.css";
 import { useDateTime } from "./useTimeDate";
-import "./DateTimeScrollerStyles.css";
+
 // import { updateDateTimeScroller } from "./DateTimeScroller";
 import TamaLOGO from "../assets";
 
@@ -21,7 +22,6 @@ const collab = () => {
                 aria-hidden="true"
                 className="absolute inset-0 bg-gradient-to-b from-blue-400 to-purple-500 rounded-md"
               ></div>
-              {/* /////////////Gradient Start/////////////////// */}
               <div className="relative  p-6 rounded-md">
                 <div className="mx-auto mb-10 w-full max-w-[550px] md:mb-14 ">
                   {/* ///////////////////FORM START///////////// */}
@@ -100,7 +100,8 @@ const collab = () => {
           </div>
         </div>
       </div>
-      <div className="date-scroll-container text-2xl ">
+
+      <div className="date-scroll-container text-2xl mt-10">
         <div className="bebasFont" id="currentDateTimeScroller">
           {formattedDate}
         </div>
@@ -141,6 +142,7 @@ const collab = () => {
           {formattedDate}
         </div>
       </div>
+
       {/* //////////////////SVG///////////// */}
       {/* <div>
         <svg
