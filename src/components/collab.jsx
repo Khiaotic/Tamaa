@@ -1,16 +1,22 @@
 import React from "react";
 import Section from "./Section";
 import Button from "./Button";
+import { useDateTime } from "./useTimeDate";
+import "./DateTimeScrollerStyles.css";
+// import { updateDateTimeScroller } from "./DateTimeScroller";
+import TamaLOGO from "../assets";
+
 const collab = () => {
+  const formattedDate = useDateTime();
   return (
     <Section crosses>
-      <div className="container ">
+      <div className="container">
         <div className="max-w-[25rem] mx-auto">
-          <h2 className=" text-blue-400 h2 font-bebas mb-4 md:mb-8">
+          <h2 className=" flex items-center justify-center text-blue-400 h2 font-bebas mb-4 md:mb-8">
             Want To Collaborate?
           </h2>
           <div className="flex justify-center items-start gap-4 ">
-            <div className="relative flex justify center items-start gap-4 p-0.5 md:max-w-[24rem]">
+            <div className="relative flex justify-center items-start gap-4 p-0.5 md:max-w-[24rem]">
               <div
                 aria-hidden="true"
                 className="absolute inset-0 bg-gradient-to-b from-blue-400 to-purple-500 rounded-md"
@@ -23,7 +29,7 @@ const collab = () => {
                     <div>
                       <label
                         for="name"
-                        className="mb-2 block text-base font-medium "
+                        className="mb-2 block text-base flex items-center justify-center font-medium "
                       >
                         Name
                       </label>
@@ -38,7 +44,7 @@ const collab = () => {
                     <div className="mt-10">
                       <label
                         for="email"
-                        className="mb-3 block text-base font-medium"
+                        className="flex items-center justify-center mb-3 block text-base font-medium"
                       >
                         Email
                       </label>
@@ -53,7 +59,7 @@ const collab = () => {
                     <div className="mt-10">
                       <label
                         for="subject"
-                        className="mb-3 block text-base font-medium"
+                        className="flex items-center justify-center mb-3 block text-base font-medium"
                       >
                         Collaboration Subject
                       </label>
@@ -68,7 +74,7 @@ const collab = () => {
                     <div className="mt-10">
                       <label
                         for="message"
-                        className="mb-3 block text-base font-medium"
+                        className=" flex items-center justify-center mb-3 block text-base font-medium"
                       >
                         Message
                       </label>
@@ -89,12 +95,54 @@ const collab = () => {
                 </div>
                 {/* //////Gradeint End///////////////// */}
               </div>
+              <img src={TamaLOGO}></img>
             </div>
           </div>
         </div>
       </div>
+      <div className="date-scroll-container text-2xl ">
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+        <div className="bebasFont" id="currentDateTimeScroller">
+          {formattedDate}
+        </div>
+      </div>
       {/* //////////////////SVG///////////// */}
-      {/* <div className="flex items-center justify-center">
+      {/* <div>
         <svg
           className="w-18 h-18 logo "
           xmlns="http://www.w3.org/2000/svg"
