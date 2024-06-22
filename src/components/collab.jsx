@@ -11,7 +11,7 @@ const collab = () => {
   const formattedDate = useDateTime();
   return (
     <Section crosses>
-      <div className="container">
+      <div id="collab" className="container">
         <div className="max-w-[25rem] mx-auto">
           <h2 className=" flex items-center justify-center text-blue-400 h2 font-bebas mb-4 md:mb-8">
             Want To Collaborate?
@@ -68,7 +68,7 @@ const collab = () => {
                         type="text"
                         name="subject"
                         id="subject"
-                        placeholder="Enter your collaboration idea's subject"
+                        placeholder="Enter your idea's subject"
                       />
                     </div>
                     <div className="mt-10">
@@ -83,7 +83,7 @@ const collab = () => {
                         rows="4"
                         name="message"
                         id="message"
-                        placeholder="Elaborate Your Thoughts and Ideas"
+                        placeholder="Elaborate on Your Thoughts and Ideas"
                       />
                     </div>
                   </form>
