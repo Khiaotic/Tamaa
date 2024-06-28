@@ -22,7 +22,7 @@ const collab = () => {
                 aria-hidden="true"
                 className="absolute inset-0 bg-gradient-to-b from-blue-400 to-purple-500 rounded-md"
               ></div>
-              <div className="relative  p-6 rounded-md">
+              <div className="relative  p-6 ml-6 rounded-md">
                 <div className="mx-auto mb-10 w-full max-w-[550px] md:mb-14 ">
                   {/* ///////////////////FORM START///////////// */}
                   <form>
@@ -34,11 +34,11 @@ const collab = () => {
                         Name
                       </label>
                       <input
-                        className="w-full rounded-md bg-white py-3 px-6 text-base font-medium focus:shadow-md"
+                        className="w-full rounded-md bg-white py-3 px-6 text-base text-center font-medium focus:shadow-md"
                         type="text"
                         name="name"
                         id="name"
-                        placeholder="Full Name or Artist Name"
+                        placeholder="Full Name or Label"
                       />
                     </div>
                     <div className="mt-10">
@@ -49,7 +49,7 @@ const collab = () => {
                         Email
                       </label>
                       <input
-                        className="w-full rounded-md bg-white py-3 px-6 text-base font-medium focus:shadow-md"
+                        className="w-full rounded-md bg-white py-3 px-6 text-base text-center font-medium focus:shadow-md"
                         type="email"
                         name="email"
                         id="email"
@@ -59,7 +59,7 @@ const collab = () => {
                     <div className="mt-10">
                       <label
                         for="subject"
-                        className="flex items-center justify-center mb-3 block text-base font-medium"
+                        className="flex items-center justify-center mb-3 block text-base text-center font-medium"
                       >
                         Collaboration Subject
                       </label>
@@ -74,12 +74,12 @@ const collab = () => {
                     <div className="mt-10">
                       <label
                         for="message"
-                        className=" flex items-center justify-center mb-3 block text-base font-medium"
+                        className=" flex items-center justify-center mb-3 block text-base text-center font-medium"
                       >
                         Message
                       </label>
                       <textarea
-                        className="w-full rounded-md bg-white py-3 px-6 text-base font-medium focus:shadow-md"
+                        className="w-full rounded-md bg-white py-3 px-6 text-base text-center font-medium focus:shadow-md"
                         rows="4"
                         name="message"
                         id="message"
