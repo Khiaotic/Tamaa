@@ -69,6 +69,12 @@ export const navigation = [
     url: "#niceThings",
     //   onlyMobile: true,
   },
+  {
+    id: "6",
+    title: "Socials",
+    url: "#footer",
+    //   onlyMobile: true,
+  },
 ];
 
 // export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

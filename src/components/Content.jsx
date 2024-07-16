@@ -7,7 +7,7 @@ import { GradientLight } from "./design/Benefits";
 
 const Content = () => {
   return (
-    <Section id="content">
+    <Section crosses id="content">
       <div className="container relative z-2 flex items-center">
         <Heading
           className="md:max-w-md lg:max-w-3xl"

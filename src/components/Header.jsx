@@ -123,7 +123,9 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
-            <h2 className="flex flex-end ml-10">SOCIALS</h2>
+            {/* <a>
+            <Button href="footer" className="select-none">SOCIALS</Button>
+            </a> */}
           </div>
           <HamburgerMenu />
         </nav>

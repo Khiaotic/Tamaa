@@ -5,7 +5,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Content from "./components/Content";
 import Collab from "./components/collab";
-import Downloadables from "./components/Downloadables"
+import Downloadables from "./components/Downloadables";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -23,6 +25,8 @@ const App = () => {
       <ButtonGradient />
       <Collab />
       <Downloadables />
+      <About />
+      <Footer />
     </>
   );
 };
