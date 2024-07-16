@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Content from "./components/Content";
 import Collab from "./components/collab";
+import Downloadables from "./components/Downloadables"
+
 
 const App = () => {
   // const [count, setCount] = useState(0)
@@ -20,6 +22,7 @@ const App = () => {
       </div>
       <ButtonGradient />
       <Collab />
+      <Downloadables />
     </>
   );
 };

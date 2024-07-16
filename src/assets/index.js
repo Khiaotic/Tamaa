@@ -36,9 +36,10 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-// import service1 from "./services/service-1.png";
-// import service2 from "./services/service-2.png";
-// import service3 from "./services/service-3.png";
+// import TamaBaby from "../../public/TamaDownloads/Tama_Baby_Hero.png";
+// import TamaSeptum from "./downloadables/tama_eyes_only_spetum.1bdfd7f1.png";
+// import TamaLogoSide from "./downloadables/tamaLogoNameSide.png";
+// import TamaLogoMiddle from "./downloadables/tamaLogoNameMiddle.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -111,6 +112,10 @@ export default {
   protopie,
   raindrop,
   slack,
+  // TamaBaby,
+  // TamaLogoMiddle,
+  // TamaLogoSide,
+  // TamaSeptum,
   // service1,
   // service2,
   // service3,

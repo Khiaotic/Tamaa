@@ -8,7 +8,7 @@ import { GradientLight } from "./design/Benefits";
 const Content = () => {
   return (
     <Section id="content">
-      <div className="container relative z-2">
+      <div className="container relative z-2 flex items-center">
         <Heading
           className="md:max-w-md lg:max-w-3xl"
           title="Check Out TAMA's Latest Content"
