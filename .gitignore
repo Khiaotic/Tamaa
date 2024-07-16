@@ -27,3 +27,4 @@ dist-ssr
 # FILES
 *.js  
 src/components/collab.jsx
+src/components/niceThings.jsx
