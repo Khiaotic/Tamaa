@@ -13,7 +13,7 @@ const Hero = () => {
       crosses
       crossesOffest="lg:translate-y-[5.25rem]"
       customPadding
-      id="hero"
+      id="home"
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[80rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
@@ -29,6 +29,8 @@ const Hero = () => {
             </div>
 
             <div className="aspect-16/9] rounded-b-[0.9rem] overflow-hidden md:aspect-[16/9] lg:aspect-[16/9] ">
+              <a
+              href="">
               <img
                 className="relative w-full transition-colors "
                 width={1024}
@@ -36,7 +38,9 @@ const Hero = () => {
                 src={lossless}
                 href=""
                 alt="lastest music video"
-              />
+                />
+                </a>
+                
             </div>
           </div>
         </div>
