@@ -2,9 +2,11 @@ import React from "react";
 import Section from "./Section";
 import Heading from "./Heading";
 
+
 const About = () => {
   return (
     <Section crosses id="about">
+
       <div className="container">
         <div className="flex justify-center items-center">
           <Heading title="ABOUT"/>

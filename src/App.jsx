@@ -8,6 +8,7 @@ import Collab from "./components/collab";
 import Downloadables from "./components/Downloadables";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import NiceThings from "./components/niceThings";
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Collab />
       <Downloadables />
       <About />
+      <NiceThings />
       <Footer />
     </>
   );
