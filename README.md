@@ -4,7 +4,7 @@
 ![TamaHero](https://github.com/user-attachments/assets/c85df7e1-f73d-4cc4-ba80-5d1fd81094d9)
 
 ## ✨Overview (description)✨
-<h3 align="center">My attempt making a website for an ex that is a musci artist. She gave up on it, so I gave up on it. That's how life goes. </h3>
+<h3 align="center">My attempt making a website for an ex that is a music artist. She gave up on it, so I gave up on it. That's how life goes. </h3>
 
 ## 🪪License
 This application is covered by the MIT
