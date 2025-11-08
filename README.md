@@ -31,7 +31,7 @@ To clone and use this application, you'll need Git and Node.js (npm equipped) in
 
 
 ## 🧰Usage
-Click the link: 
+Click the link:  https://khiaotic.github.io/Tamaa/
 
 ## 🏠Contributors
 
